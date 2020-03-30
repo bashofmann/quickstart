@@ -1,0 +1,109 @@
+# Required variables
+# - Fill in before beginning quickstart
+# - For more documentation on the OpenStack provider settings, see https://www.terraform.io/docs/providers/openstack/
+# ==========================================================
+
+# OpenStack region in which resources will be provisioned
+openstack_region = ""
+
+# OpenStack authorization endpoint
+openstack_auth_url = ""
+
+# Trust self-signed certificates on OpenStack authorization endpoint
+# openstack_insecure = false
+
+# Custom CA certificate for OpenStack authorization endpoint
+# openstack_cacert_file = ""
+
+# Client certificate for SSL authentication on OpenStack authorization endpoint
+# openstack_cert = ""
+
+# Private key for SSL authentication on OpenStack authorization endpoint
+# openstack_key = ""
+
+# OpenStack user domain name used for all resources
+# openstack_user_domain_name = ""
+
+# OpenStack user domain id used for all resources
+# openstack_user_domain_id = ""
+
+# OpenStack project domain name used for all resources
+# openstack_project_domain_name = ""
+
+# OpenStack project domain id used for all resources
+# openstack_project_domain_id = ""
+
+# OpenStack domain name used for all resources
+# openstack_domain_name =  ""
+
+# OpenStack domain id used for all resources
+# openstack_domain_id = ""
+
+# OpenStack tenant name used for all resources
+# openstack_tenant_name = ""
+
+# OpenStack tenant id used for all resources
+# openstack_tenant_id = ""
+
+# OpenStack user name used to create resources
+# openstack_user_name = ""
+
+# OpenStack user id used to create resources
+# openstack_user_id = ""
+
+# OpenStack password used for all resources
+# openstack_password = ""
+
+# OpenStack token used for all resource
+# openstack_token = ""
+
+# OpenStack application credential name used for all resources
+# openstack_application_credential_name = ""
+
+# OpenStack application credential id used for all resources
+# openstack_application_credential_id = ""
+
+# OpenStack application credential secret used for all resources
+# openstack_application_credential_secret = ""
+
+# Password used to log in to the `admin` account on the new Rancher server
+rancher_server_admin_password = ""
+
+# Flavor used for all linux virtual machines
+flavor = ""
+
+# Name of image used all linux virtual machines, must be an Ubuntu 18.04
+image_name = ""
+
+# Name of the external network in OpenStack for internet access
+# openstack_ext_net_name = "ext-net"
+
+# Optional variables, uncomment to customize the quickstart
+# ----------------------------------------------------------
+
+# Prefix for all resources created by quickstart
+# prefix = ""
+
+# Docker version installed on target hosts
+# - Must be a version supported by the Rancher install scripts
+# docker_version = ""
+
+# SSH key file name used to access nodes
+# - Specify private key path and name (e.g. ~/.ssh/id_rsa_do)
+# - Public key is assumed to be at "${ssh_key_file_name}.pub" (e.g. ~/.ssh/id_rsa_do.pub)
+# ssh_key_file_name = ""
+
+# Kubernetes version used for creating management server cluster
+# - Must be supported by RKE terraform provider 0.14.1
+# rke_kubernetes_version = ""
+
+# Kubernetes version used for creating workload cluster
+# - Must be supported by RKE terraform provider 0.14.1
+# workload_kubernetes_version = ""
+
+# Version of cert-manager to install, used in case of older Rancher versions
+# cert_manager_version = ""
+
+# Version of Rancher to install
+# rancher_version = ""
+
